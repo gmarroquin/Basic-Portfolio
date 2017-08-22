@@ -1,0 +1,56 @@
+/* Entire Content Div */
+.entireContent {
+	width: 960px;
+}
+
+
+/* Header menu */
+header {
+	border:solid;
+	border-color: #cccccc;
+	padding: 35px;
+	position: fixed;
+	width: 100%;
+	height: 20px;
+}
+
+/* My name in Header Menu Bar */
+#yourName {
+	background: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white; 
+	float: left;
+	position: absolute;
+	left: 150px;
+	height: 80px;
+	top: 0px;
+	padding-top: 10px;
+}
+
+/* menu options */
+
+.about {
+	float: right;
+	margin-right: 150px;
+}
+
+/* About me Div section */
+.aboutMeSection {
+	clear: both;
+	float: left;
+	width: 650px;
+	border: solid;
+	position: relative;	
+	top: 200px;
+	margin-right: 200px;
+	margin-left: 200px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+/* Profile Pic */
+#profile_picture {
+	clear: both;
+	float: left;
+}
+
