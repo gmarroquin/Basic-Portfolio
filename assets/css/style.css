@@ -1,6 +1,7 @@
 /* Entire Content Div */
 .entireContent {
 	width: 960px;
+
 }
 
 
@@ -12,12 +13,16 @@ header {
 	position: fixed;
 	width: 100%;
 	height: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
 }
 
 /* My name in Header Menu Bar */
 #yourName {
 	background: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 20px;
 	color: white; 
 	float: left;
 	position: absolute;
@@ -30,30 +35,64 @@ header {
 }
 
 /* menu options */
-
 .about {
 	float: right;
 	margin-right: 150px;
+}
+
+/* headerAbout */ 
+.headerAbout {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+	color: #4aaaa5;
+	font-weight: bold;
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	width: 90%;
+	font-size: 30px;
+	padding-left: 20px;
+	padding-top: 40px;
+	text-align: left;
 }
 
 /* About me Div section */
 .aboutMeSection {
 	clear: both;
 	float: left;
+	height: 450px;
 	width: 650px;
 	border: solid;
-	position: relative;	
+	border-color: #cccccc;
+	border-width: thin;
+	position: fixed;	
+	left: 150px;
 	top: 200px;
-	margin-right: 200px;
-	margin-left: 200px;
 	padding-top: 25px;
 	padding-bottom: 10px;
-	padding-right: 10px;
+}
+
+/* summaryBlurb */
+.summaryBlurb {
+	float: left;
+	top: 0px;
 }
 
 /* Profile Pic */
 #profile_picture {
-	clear: both;
 	float: left;
+	padding-top: 20px;
+}
+
+/*horizontal line */
+#hr1 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* blurb */
+p1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
 }
 
