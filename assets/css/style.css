@@ -22,9 +22,11 @@ header {
 	float: left;
 	position: absolute;
 	left: 150px;
-	height: 80px;
+	width: 250px;
+	height: 50px;
 	top: 0px;
-	padding-top: 10px;
+	padding-top: 40px;
+	text-align: center;
 }
 
 /* menu options */
@@ -44,6 +46,7 @@ header {
 	top: 200px;
 	margin-right: 200px;
 	margin-left: 200px;
+	padding-top: 25px;
 	padding-bottom: 10px;
 	padding-right: 10px;
 }
