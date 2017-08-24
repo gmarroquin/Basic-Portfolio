@@ -1,5 +1,5 @@
 body {
-	background-image: url(../images/background-2462426.jpg);
+	background-image: url(../images/background-image.jpg);
 	min-height: 500px;
 	background-repeat: repeat;
 	background-attachment: fixed;
@@ -12,6 +12,8 @@ body {
 .header {
 	background-color: white;
 	width: 100%;
+	border-bottom: 2px #cccccc;
+  	border-style: solid none;
 }
 
 /* menu */
@@ -37,14 +39,15 @@ ul {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     left: 400px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
 }
 
 li {
@@ -59,51 +62,61 @@ li a {
     padding: 14px 16px;
     padding-top: 30px;
     padding-bottom: 30px; 
-    text-decoration: none;
     background: grey;
     font-size: 20px;
+    text-decoration: none;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #B7B7FF;
 }
 
 .active {
-    background-color: orange;
+    background-color: #8ED6EA;
+}
+
+.Portfolio {
+	background-color: #A6DEEE;
+}
+
+.contact {
+	background-color: #C0E7F3;
 }
 
 /* About me Div section */
 .aboutMeSection {
-	height: 550px;
+	height: 495px;
 	width: 650px;
 	border: solid;
 	border-color: #cccccc;
-	border-width: thick;
+	border-width: thin;
 	position: relative;	
 	left: 100px;
 	top: 50px;
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-top: 25px;
-	padding-bottom: 10px;
+	padding-bottom: 25px;
 	background-color: white;
 	margin-bottom: 150px;
+	overflow: auto;
 }
 
 /* headerAbout */ 
-.headerAbout {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+.headerAbout {	
 	float: left;
 	color: #4aaaa5;
 	font-weight: bold;
 	top: 0px;
 	width: 620px;
 	height: 150px;
-	font-size: 20px;
+	font-size: 30px;
 	padding-top: 20px;
 	text-align: left;
 	background: white;
 	margin-left: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 /*horizontal line */
@@ -134,34 +147,45 @@ li a:hover:not(.active) {
 	margin-right: 25px;
 	text-align: justify;
     text-justify: inter-word;
+    font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
 }
 
-/* sideBar */
+/* sideBar DIV*/
 .sideBar {
 	background-color: white;
 	width: 270px;
 	height: 200px;
 	float: right;
 	position: absolute;
-	right: 305px;
+	right: 320px;
 	top: 130px;
 	border: solid;
 	border-color: #cccccc;
-	border-width: thick;
+	border-width: thin;
 }
 
-/* sideBar Title */
-.profileAboutme{
-	font-family: 'Georgia', Times, Times New Roman, serif;
+/* sideBar Profile Header*/
+.profileAboutme {
 	float: left;
 	color: #4aaaa5;
 	font-weight: bold;
 	top: 0px;
-	font-size: 20px;
-	padding-top: 45px;
+	font-size: 30px;
+	width: 200px;
+	height: 40px;
+	padding-bottom: 40px;
+	padding-top: 44px;
 	text-align: center;
 	background: white;
-	margin-left: 40px;
+	margin-left: 35px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.iconDiv{
+	width: 200px;
+	position: absolute;
+	left: 12px;
 }
 
 /* Social Media Icons */
@@ -174,13 +198,13 @@ li a:hover:not(.active) {
 .StackOverflow {
 	position: absolute;
 	top: 100px;
-	left: 100px;
+	left: 97px;
 }
 
 .GitHub {
 	position: absolute;
 	top: 100px;
-	left: 170px;
+	left: 155px;
 }
 
 /* footer */
@@ -195,4 +219,10 @@ li a:hover:not(.active) {
   padding-bottom: 40px;
   padding-top: 40px;
   margin-top: 100px;
+  color: white;
+  font-size: 10px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  letter-spacing: 2px;
+  border-top: 10px #4aaaa5;
+  border-style: solid none;
 }
