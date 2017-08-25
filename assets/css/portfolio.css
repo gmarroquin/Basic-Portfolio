@@ -14,7 +14,7 @@ body {
   	border-style: solid none;
 }
 
-/* menu */
+/* menu section*/
 .menu {
 	width: 960px;
 	margin: auto;
@@ -68,9 +68,9 @@ li a:hover:not(.active) {
     background-color: #D6665A;
 }
 
-/* About me Div section */
-.aboutMeSection {
-	height: 495px;
+/* Contact me Div section */
+.portfolioMeSection {
+	height: 800px;
 	width: 650px;
 	border: solid;
 	background-color: rgba(0,0,0,0.5);
@@ -87,8 +87,8 @@ li a:hover:not(.active) {
 	overflow: auto;
 }
 
-/* headerAbout */ 
-.headerAbout {	
+/* ContactmeHeader */ 
+.portfolioHeader {	
 	float: left;
 	color: white;
 	font-weight: thin;
@@ -110,36 +110,144 @@ li a:hover:not(.active) {
 	position: absolute;
 	left: 15px;
 	right: 20px;
-
 }
-/* Profile Pic */
-.profile_picture {
-	float: left;
-	position: absolute;
-	padding-top: 20px;
+
+/* Project Image Hover */
+a.layerOne:hover, a.layerOne:active {background: #D6665A}
+a.layerTwo:hover, a.layerTwo:active {background: #D6665A}
+a.layerThree:hover, a.layerThree:active {background: #D6665A}
+a.layerFour:hover, a.layerFour:active {background: #D6665A}
+a.layerFive:hover, a.layerFive:active {background: #D6665A}
+
+/* Text Overlay */
+.layerOne{
+	position:absolute; 
+	top: 240px;
+	left:25px;
+    width:295px;
+    height:50px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 1px;
+    z-index: 1;
+    padding-top: 25px;
+}
+
+
+.layerTwo{
+	position:absolute; 
+	top: 240px;
+	left: 338px;
+    width:295px;
+    height:50px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 1px;
+    z-index: 1;
+    padding-top: 25px;
+}
+
+.layerThree{
+	position:absolute; 
+	top: 455px;
 	left: 25px;
-	top: 100px;
-	z-index: 10;
-	width: 200px;
+    width:295px;
+    height:50px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 1px;
+    z-index: 1;
+    padding-top: 25px;
+}
+
+.layerFour{
+	position:absolute; 
+	top: 455px;
+	left: 338px;
+    width:295px;
+    height:50px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 1px;
+    z-index: 1;
+    padding-top: 25px;
+}
+
+.layerFive{
+	position:absolute; 
+	top: 670px;
+	left: 25px;
+    width:295px;
+    height:50px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 1px;
+    z-index: 1;
+    padding-top: 25px;
+}
+/*Project Placeholder Images */
+.Arch{
+	width: 295px;
 	height: 200px;
-}
-
-/* blurb */
-.summaryBlurb {
-	font-family: 'Alegreya Sans SC', sans-serif;
-	color: white;
-	font-size: 15px;
 	position: absolute;
-	left: 240px;
-	top: 120px;
-	float: left;
-	margin-right: 25px;
-	text-align: justify;
-	letter-spacing: 1px;
+	top: 135px;
+	left: 25px;
 }
 
-/* sideBar DIV*/
-.sideBar {
+.People{
+	width: 295px;
+	height: 200px;
+	position: absolute;
+	top: 135px;
+	right: 27px;
+}
+
+.Nature{
+	width: 295px;
+	height: 200px;
+	position: absolute;
+	top: 350px;
+	left: 25px;
+}
+
+.techOne{
+	width: 295px;
+	height: 200px;
+	position: absolute;
+	top: 350px;
+	right: 27px;
+}
+
+.techTwo{
+	width: 295px;
+	height: 200px;
+	position: absolute;
+	top: 565px;
+	left: 25px;
+}
+
+/*ContactsideBar*/
+.ContactsideBar {
 	width: 270px;
 	height: 200px;
 	background-color: rgba(0,0,0,0.5);
@@ -200,8 +308,8 @@ li a:hover:not(.active) {
 	height: 50px;
 }
 
-/* footer */
-.Indexfooter {
+/* Contact footer */
+.contactfooter {
 	position: relative;
   	width: 100%;
   	padding-bottom: 40px;

@@ -14,7 +14,7 @@ body {
   	border-style: solid none;
 }
 
-/* menu */
+/* menu section*/
 .menu {
 	width: 960px;
 	margin: auto;
@@ -68,8 +68,8 @@ li a:hover:not(.active) {
     background-color: #D6665A;
 }
 
-/* About me Div section */
-.aboutMeSection {
+/* Contact me Div section */
+.contactMeSection {
 	height: 495px;
 	width: 650px;
 	border: solid;
@@ -87,8 +87,8 @@ li a:hover:not(.active) {
 	overflow: auto;
 }
 
-/* headerAbout */ 
-.headerAbout {	
+/* ContactmeHeader */ 
+.ContactmeHeader {	
 	float: left;
 	color: white;
 	font-weight: thin;
@@ -110,36 +110,23 @@ li a:hover:not(.active) {
 	position: absolute;
 	left: 15px;
 	right: 20px;
-
 }
-/* Profile Pic */
-.profile_picture {
+
+/* Form Section */
+.inputForm {
 	float: left;
 	position: absolute;
 	padding-top: 20px;
 	left: 25px;
 	top: 100px;
 	z-index: 10;
-	width: 200px;
-	height: 200px;
-}
-
-/* blurb */
-.summaryBlurb {
+	text-align: justify;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	color: white;
-	font-size: 15px;
-	position: absolute;
-	left: 240px;
-	top: 120px;
-	float: left;
-	margin-right: 25px;
-	text-align: justify;
-	letter-spacing: 1px;
 }
 
-/* sideBar DIV*/
-.sideBar {
+/*ContactsideBar*/
+.ContactsideBar {
 	width: 270px;
 	height: 200px;
 	background-color: rgba(0,0,0,0.5);
@@ -200,8 +187,8 @@ li a:hover:not(.active) {
 	height: 50px;
 }
 
-/* footer */
-.Indexfooter {
+/* Contact footer */
+.contactfooter {
 	position: relative;
   	width: 100%;
   	padding-bottom: 40px;
