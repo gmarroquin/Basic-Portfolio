@@ -3,15 +3,15 @@ body {
 	min-height: 500px;
 	background-repeat: repeat;
 	background-attachment: fixed;
-    background-repeat: repeat;
-    background-size: cover;
+	background-repeat: repeat;
+	background-size: cover;
 }
 
 /* Whole Page header DIV */
 .header {
 	width: 100%;
 	border-bottom: 2px white;
-  	border-style: solid none;
+	border-style: solid none;
 }
 
 /* menu section*/
@@ -22,28 +22,28 @@ body {
 
 ul {
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: relative;
-    right: 300px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	right: 300px;
 }
 
 #name {
 	float: left;
 	display: block;
-    color: white;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 30px;
-    position: relative;
-    left: 400px;
+	color: white;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 30px;
+	position: relative;
+	left: 400px;
 	font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: bold;
-    letter-spacing: 3px;
+	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 li {
@@ -52,20 +52,20 @@ li {
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    font-family: 'Alegreya Sans SC', sans-serif;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 li a:hover:not(.active) {
-    background-color: #D6665A;
+	background-color: #D6665A;
 }
 
 /* Contact me Div section */
@@ -190,15 +190,15 @@ li a:hover:not(.active) {
 /* Contact footer */
 .contactfooter {
 	position: relative;
-  	width: 100%;
-  	padding-bottom: 40px;
-  	padding-top: 40px;
-  	margin-top: 100px;
-  	border-top: 2px white;
-  	border-style: solid none;
+	width: 100%;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	margin-top: 100px;
+	border-top: 2px white;
+	border-style: solid none;
 	text-align: center;
 	color: white;
-  	font-size: 10px;
-  	font-family: 'Alegreya Sans SC', sans-serif;
-  	letter-spacing: 2px;
+	font-size: 10px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	letter-spacing: 2px;
 }
